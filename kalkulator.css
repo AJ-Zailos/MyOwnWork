@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.judul {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-bottom: -30px;
+}
+
+.judul h1 {
+    font-size: 42px;
+    padding-top: 20px;
+}
+
+.judul h2 {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.entry {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+.hitung {
+    width: 400px;
+    height: 60px;
+    font-size: 26px;
+    background-color: #3498db; 
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    align-items: center;
+    border: 2px solid #2c3e50; 
+    box-sizing: border-box;
+}
+
+.tombol {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    margin: 0 auto;
+}
+
+.normal td button {
+    font-size: 20px;
+    width: 75px;
+    height: 75px;
+}
+
+.wide td button {
+    font-size: 20px;
+    width: 152px;
+    height: 75px;
+}
